@@ -22,7 +22,7 @@ jobs:
       - name: Build project
         uses: webbertakken/unity-builder@v0.10
         with:
-          unityVersion: 2020.2.3f1
+          unityVersion: 2020.1.13f1
           targetPlatform: WebGL
 
       # Output
