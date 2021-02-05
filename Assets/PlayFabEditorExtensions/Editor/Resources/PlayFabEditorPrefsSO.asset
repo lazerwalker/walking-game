@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d0199c11aa6f514784c5c69cd8378d8, type: 3}
   m_Name: PlayFabEditorPrefsSO
   m_EditorClassIdentifier: 
-  DevAccountEmail: flappy@lazerwalker.com
-  DevAccountToken: rmb3cazgsqbj93qkxzpr3ykkqd34xqmd7di7bmogi7trxrup5ypf5tqbtkxjwkdh6ugpwywxr5hb5nxfo14uqgejcshm9979jsqm48hm6f3yfqiog1hrj9anpynt7j8agzukmb18niwifgkh55oxtqmtmc6zcgheu5j6uo1gpzxidsyq5ga6dih14ajbbajoqghc1cb6
-  SelectedStudio: Twitch Games
-  SdkPath: Assets/PlayFabSDK
+  DevAccountEmail: 
+  DevAccountToken: 
+  SelectedStudio: 
+  SdkPath: 
   EdExPath: 
   LocalCloudScriptPath: 
   PanelIsShown: 0
-  curMainMenuIdx: 3
+  curMainMenuIdx: 0
   curSubMenuIdx: 0
