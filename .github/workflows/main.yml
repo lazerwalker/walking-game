@@ -1,4 +1,4 @@
-name: Make WebGL Build
+name: Make iOS Build
 
 on:
   pull_request: {}
@@ -23,7 +23,7 @@ jobs:
         uses: webbertakken/unity-builder@v0.10
         with:
           unityVersion: 2020.1.13f1
-          targetPlatform: WebGL
+          targetPlatform: iOS
 
       # Output
       - uses: actions/upload-artifact@v1
