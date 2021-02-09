@@ -1,4 +1,11 @@
+# Don't version iOS build artifacts
+!iOS/
+iOS/*
+!iOS/fastlane/
+!iOS/fastlane/*
+
 .DS_Store
+
 # Created by https://www.toptal.com/developers/gitignore/api/unity,csharp
 # Edit at https://www.toptal.com/developers/gitignore?templates=unity,csharp
 
