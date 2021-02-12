@@ -42,9 +42,9 @@ public class AuthenticationManager : MonoBehaviour
     void ProcessAuthentication (bool success) {
         if (success) {
             Debug.Log($"User ID: {Social.localUser.id}");
-            var request = new LinkGameCenterAccountRequest { GameCenterId = Social.localUser.id, Social.localUser. };
-        PlayFabClientAPI.LinkGameCenterAccountRequest(request, OnGameCenterLinkSucess, OnLoginFailure);
-        } else
+            var request = new LinkGameCenterAccountRequest { GameCenterId = Social.localUser.id };
+            PlayFabClientAPI.LinkGameCenterAccount(request, OnGameCenterLinkSucess, OnFailure);
+        } else {
             Debug.Log ("Failed to authenticate");
         }
     }
