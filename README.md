@@ -7,6 +7,7 @@ This is a Pokemon Go-style AR walking game built with [Unity](https://unity3d.co
 
 More info on the game is coming soon, as development continues! Check out this README for info as it happens, updates on streams, and links to past streams.
  
+This is slightly deprecated -- I'm now focusing on a HTML5-based version of this.
  
 # Dev Changelog
 
