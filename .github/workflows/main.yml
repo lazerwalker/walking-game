@@ -20,10 +20,10 @@ jobs:
 
       # Build
       - name: Build project
-        uses: webbertakken/unity-builder@v0.10
+        uses: webbertakken/unity-builder@v2
         with:
-          unityVersion: 2020.1.13f1
           targetPlatform: iOS
+          allowDirtyBuild: true
 
       # Output
       - uses: actions/upload-artifact@v1
